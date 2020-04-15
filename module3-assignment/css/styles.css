@@ -1,0 +1,52 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #001BFF;
+ }
+
+header {
+	background-color: red;
+	color: black;
+}
+
+h1 {
+	color: black;
+}
+button {
+	float:right;
+}
+
+.navbar-header {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.row {
+	background-color: #EC961A;
+}
+
+.menu-title {
+	text-align: center;
+	height: 1000px;
+}
+
+#nav-list {
+	color: black;
+	background-color: yellow;
+	width: 100%;
+}
+
+#nav-list a {
+	color:black;
+}
+
+#nav-list li {
+	border-width: 1px;
+	border-color: black;
+}
+
+@media (max-width: 575px) {
+	#main-content {
+		width: 90%;
+	}
+}
